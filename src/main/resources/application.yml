@@ -1,0 +1,6 @@
+# Setting for development environment
+spring:
+  redis:
+    host: localhost
+    port: 6379
+
