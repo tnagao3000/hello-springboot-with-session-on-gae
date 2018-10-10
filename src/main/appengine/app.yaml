@@ -1,10 +1,9 @@
 runtime: java
 env: flex
-api_version: 1
 
 handlers:
-  - url: .*
-    script: dynamic
+  - url: /.*
+    script: this field is required, but ignored
 
 resources:
   cpu: 1
